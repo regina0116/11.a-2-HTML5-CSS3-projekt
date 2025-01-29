@@ -1,0 +1,138 @@
+/*Gipsz Jakab*/
+/*stíluslap*/
+header,
+nav,
+section,
+article,
+footer {
+	border: 1px dashed red;
+}
+
+body
+{
+	background-image: url('../images/tile.png');
+	/*background-repeat: repeat-x;*/
+}
+h2 {
+	text-align: center;
+}
+
+/*fejléc formázása*/
+header {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+#banner-content {
+	padding: 30px;
+	text-align: center;
+}
+
+#banner-content a {
+	text-decoration: none;
+	color: orange;
+	font-size: 1.2em;
+}
+
+#banner-content a:hover {
+	text-decoration: underline;
+}
+
+#logo {
+	width: 300px;
+	height: 170px;
+	float: left;
+	/*background-image: url("../images/premo-logo.png");
+	background-repeat: no-repeat;*/
+	margin: 5px 0 5px 0px;
+}
+
+logo img {
+	width: 200px;
+}
+
+/*navigációs sáv formázása*/
+nav {
+	float: left;
+	width: 10%;
+	min-width: 200px;
+	height: 1100px;
+	margin: 0 30px 0 30px;
+	background-color: white;
+}
+
+/* Menü stílusok*/
+#menu ul li {
+	list-style-type: none;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	border: 1px solid black;
+	/*shorthand property*/
+	padding: 3px;
+	text-align: center;
+	background-color: #eff0f1;
+}
+
+#menu ul li a:hover {
+	background-color: orange;
+	color: white;
+}
+
+#menu ul ul a {
+	display: none;
+	position: relative;
+	bottom: 20px;
+	left: 100%;
+}
+
+#menu ul li:hover > ul a {
+	display: block;
+}
+
+/*tartalmi terület formázása*/
+section {
+	float: left;
+	width: 89%;
+	height: 1100px;
+	max-width: 800px;
+	background-color: white;
+}
+
+#container {
+	width: 1100px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article {
+	width: 96%;
+	height: 950px;
+	max-width: 700px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: justify;
+	line-height: 1.8em;
+	overflow:auto;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	margin: 10px 0 20px 0;
+	float: left;
+	background-color: white;
+}
+article img
+{
+	float: left;
+	margin-right: 30px;
+}
